@@ -1,6 +1,6 @@
 A key pair, consisting of a public key and a private key, is a set of security credentials that you use to prove your identity when connecting to an Amazon EC2 instance. For Linux instances, the private key allows you to securely SSH into your instance. For Windows instances, the private key is required to decrypt the administrator password, which you then use to connect to your instance.
 
-Amazon EC2 stores the public key on your instance, and you store the private key, as shown in the following diagram. It's important that you store your private key in a secure place because anyone who possesses your private key can connect to your instances that use the key pair.
+Amazon EC2 stores the public key on your instance, and you store the private key. It's important that you store your private key in a secure place because anyone who possesses your private key can connect to your instances that use the key pair.
 
 ### Creating a KeyPair
 You can use Amazon EC2 to create your key pairs, or you can use a third-party tool to create your key pairs, and then import them to Amazon EC2.
